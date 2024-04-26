@@ -1,3 +1,24 @@
+# Deployment
+
+[Cyclic Encoder](https://cyclicencoder.netlify.app/)
+
+# Features
+
+Generator Polynomial Generation: Users can input parameters n, k, and q to generate a generator polynomial for encoding.
+
+Message Encoding: Once the generator polynomial is generated, users can input a message to encode using the generated parameters.
+
+Display of Results: The application displays the generated generator polynomial, generator matrix, and the encoded message.
+
+## Usage Instructions
+
+1. Enter values for n, k, and q.
+2. Click on the "Generate Polynomial" button to generate the generator polynomial.
+3. Enter the message you want to encode.
+4. Click on the "Encode Message" button to encode the message.
+5. View the generated generator polynomial, generator matrix, and the encoded message.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
