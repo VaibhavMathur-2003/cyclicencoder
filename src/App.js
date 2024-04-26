@@ -50,7 +50,7 @@ function encodeData(generator_polynomial, n, k, q, mssg) {
   }
   let output = '';
   for (let n of codeword) {
-    output += n.toString();
+    output += n.toString() + ' ';
   }
   return { encodedData: output, generatorMatrix: generator_matrix, generatorPolynomial: generator_polynomial };
 }
