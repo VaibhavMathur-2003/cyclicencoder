@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-function Print({ name, A }) {
-  return <p>{`${name}(${A.length - 1}) = [ ${A.join(' ')} ]`}</p>;
-}
+
 
 function generateCoefficients(n, k, q) {
     const numCoefficients = q ** (n - k); // q^(n-k)
