@@ -1,5 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+  background-color: #8ee4fc;
+}
 .App {
   text-align: center;
+  /* box-shadow: rgba(240, 46, 170, 0.4) -10px 10px, rgba(240, 46, 170, 0.3) -15px 15px, rgba(240, 46, 170, 0.2) -20px 20px, rgba(240, 46, 170, 0.1) -25px 25px, rgba(240, 46, 170, 0.05) -30px 30px; */
+  min-height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .App-logo {
